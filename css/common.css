@@ -1,0 +1,16 @@
+section {
+    padding: 50px 60px 40px;
+}
+
+.text-display {
+
+}
+
+.text-600 {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+}

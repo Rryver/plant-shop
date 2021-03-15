@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Overpass', 'sans-serif';
+    font-feature-settings: 'liga' off;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+ul, li {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}

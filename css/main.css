@@ -1,0 +1,219 @@
+.top {
+    background-image: url("../images/Background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/*HEADER*/
+.header {
+    height: 40px;
+}
+
+.header__menu {
+    display: block;
+    text-align: center;
+}
+
+.header__logo {
+    display: inline-block;
+    margin-right: 45px;
+    vertical-align: middle;
+}
+
+.header__logo-icon {
+    display: inline-block;
+    width: 40px;
+}
+
+.header__menu-list {
+    display: inline-block;
+}
+
+.header__menu-item {
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.header__check-out {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #87EAAF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+}
+
+
+/*SECTION TOP CONTENT*/
+.top__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 160px;
+}
+
+.top__content_title {
+    display: inline-block;
+    align-self: center;
+    max-width: 500px;
+    margin-bottom: 40px;
+    white-space: pre-line;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    color: #FFFFFF;
+    text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.top__content_text {
+    display: inline-block;
+    align-self: center;
+    max-width: 325px;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.top__content_link {
+    display: inline-block;
+    align-self: center;
+    padding: 11px 17px;
+    margin-bottom: 95px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.top__content_icons-list {
+    display: inline-block;
+    align-self: center;
+}
+
+.icons-item {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.icons-icon {
+    width: 40px;
+}
+
+/*SECTION INFO*/
+section .info {
+
+}
+
+section.info .wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__link_try-for-service {
+    display: inline-block;
+    align-self: center;
+    padding: 18px 53px;
+    margin-bottom: 24px;
+    border-radius: 30px;
+    background: #375739;
+    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.15));
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.info__link_get-home {
+    display: inline-block;
+    align-self: center;
+    margin-bottom: 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #B7EAAF;
+}
+
+.info__text {
+    display: inline-block;
+    max-width: 432px;
+    margin-bottom: 100px;
+    white-space: pre-line;
+    align-self: center;
+    text-align: center;
+}
+
+.info__types-of-plants_item {
+    display: inline-block;
+    position: relative;
+    margin-right: 40px;
+}
+.info__types-of-plants_item:last-child {
+    margin-right: 0;
+}
+
+.types-of-plan_image {
+    max-width: 300px;
+}
+
+.types-of-plants_caption {
+    display: inline-block;
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF;
+    letter-spacing: -.06em;
+}
+
+.types-of-plants_plants-count {
+    display: inline-block;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.types-of-plant_icon {
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    right: 24px;
+    bottom: 24px;
+}
